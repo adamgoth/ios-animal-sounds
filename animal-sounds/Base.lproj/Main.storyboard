@@ -28,7 +28,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="106" id="6YY-YB-p3m">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnimalCell" rowHeight="106" id="6YY-YB-p3m" customClass="AnimalCell" customModule="animal_sounds" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="106"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6YY-YB-p3m" id="pS2-nn-GFI">
@@ -83,6 +83,10 @@
                                                 <constraint firstItem="WCX-Cs-FDE" firstAttribute="top" secondItem="pS2-nn-GFI" secondAttribute="topMargin" id="pbw-3Z-thD"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="animalImg" destination="F51-5N-qX9" id="8D5-Yn-Wvx"/>
+                                            <outlet property="animalName" destination="FgI-ac-Ilo" id="JIQ-pT-xDF"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

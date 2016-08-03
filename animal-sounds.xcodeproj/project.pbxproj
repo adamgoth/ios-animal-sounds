@@ -16,6 +16,8 @@
 		F99089AA1D50CF4C0027B526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99089A81D50CF4C0027B526 /* Main.storyboard */; };
 		F99089AC1D50CF4C0027B526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99089AB1D50CF4C0027B526 /* Assets.xcassets */; };
 		F99089AF1D50CF4C0027B526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99089AD1D50CF4C0027B526 /* LaunchScreen.storyboard */; };
+		F9AFC5221D5220D40026937E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AFC5211D5220D40026937E /* Animal.swift */; };
+		F9AFC5241D52216C0026937E /* AnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AFC5231D52216C0026937E /* AnimalCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F99089AB1D50CF4C0027B526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F99089AE1D50CF4C0027B526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F99089B01D50CF4C0027B526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9AFC5211D5220D40026937E /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		F9AFC5231D52216C0026937E /* AnimalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		F99089A31D50CF4C0027B526 /* animal-sounds */ = {
 			isa = PBXGroup;
 			children = (
+				F9AFC5201D5220620026937E /* Model */,
+				F9AFC51F1D5220590026937E /* View */,
 				F907FC3D1D514A28009D4603 /* Controller */,
 				F907FC341D5147C6009D4603 /* Resources */,
 				F99089A41D50CF4C0027B526 /* AppDelegate.swift */,
@@ -90,6 +96,22 @@
 				F99089B01D50CF4C0027B526 /* Info.plist */,
 			);
 			path = "animal-sounds";
+			sourceTree = "<group>";
+		};
+		F9AFC51F1D5220590026937E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9AFC5231D52216C0026937E /* AnimalCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F9AFC5201D5220620026937E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9AFC5211D5220D40026937E /* Animal.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,7 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F99089A71D50CF4C0027B526 /* ViewController.swift in Sources */,
+				F9AFC5241D52216C0026937E /* AnimalCell.swift in Sources */,
 				F99089A51D50CF4C0027B526 /* AppDelegate.swift in Sources */,
+				F9AFC5221D5220D40026937E /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

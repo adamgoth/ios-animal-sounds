@@ -11,12 +11,17 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
+    
+    var animals = [Animal]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        self.animals = []
+        animals.append(Animal(name: "Lion"))
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,7 +38,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        
+        let animal = animals[indexPath.row]
+        
+        if let cell = tableView.dequeueReusableCellWithIdentifier("AnimalCell") as? AnimalCell {
+            
+            cell.configureCell(animal)
+            
+            return cell
+        } else {
+            return AnimalCell()
+        }
     }
 
 
