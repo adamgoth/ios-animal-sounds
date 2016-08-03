@@ -21,7 +21,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.dataSource = self
         
         self.animals = []
-        animals.append(Animal(name: "Lion"))
+        animals.append(Animal(name: "Lion", color: COLOR_LION))
+        animals.append(Animal(name: "Whale", color: COLOR_WHALE))
+        animals.append(Animal(name: "Snake", color: COLOR_SNAKE))
+        animals.append(Animal(name: "Rooster", color: COLOR_ROOSTER))
+        animals.append(Animal(name: "Pig", color: COLOR_PIG))
+        animals.append(Animal(name: "Cow", color: COLOR_COW))
+        animals.append(Animal(name: "Dog", color: COLOR_CAT))
+        animals.append(Animal(name: "Monkey", color: COLOR_MONKEY))
+        animals.append(Animal(name: "Owl", color: COLOR_OWL))
+        animals.append(Animal(name: "Sheep", color: COLOR_SNAKE))
+        animals.append(Animal(name: "Cat", color: COLOR_CAT))
+        animals.append(Animal(name: "Moose", color: COLOR_WHALE))
+        animals.append(Animal(name: "Elephant", color: COLOR_ROOSTER))
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,7 +46,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return animals.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {

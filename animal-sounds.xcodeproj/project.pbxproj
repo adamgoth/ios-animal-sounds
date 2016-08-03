@@ -18,6 +18,7 @@
 		F99089AF1D50CF4C0027B526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99089AD1D50CF4C0027B526 /* LaunchScreen.storyboard */; };
 		F9AFC5221D5220D40026937E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AFC5211D5220D40026937E /* Animal.swift */; };
 		F9AFC5241D52216C0026937E /* AnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AFC5231D52216C0026937E /* AnimalCell.swift */; };
+		F9AFC5281D5226B60026937E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AFC5271D5226B60026937E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F99089B01D50CF4C0027B526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9AFC5211D5220D40026937E /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		F9AFC5231D52216C0026937E /* AnimalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
+		F9AFC5271D5226B60026937E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		F99089A31D50CF4C0027B526 /* animal-sounds */ = {
 			isa = PBXGroup;
 			children = (
+				F9AFC5261D5226A30026937E /* Util */,
 				F9AFC5201D5220620026937E /* Model */,
 				F9AFC51F1D5220590026937E /* View */,
 				F907FC3D1D514A28009D4603 /* Controller */,
@@ -112,6 +115,14 @@
 				F9AFC5211D5220D40026937E /* Animal.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		F9AFC5261D5226A30026937E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F9AFC5271D5226B60026937E /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AFC5281D5226B60026937E /* Constants.swift in Sources */,
 				F99089A71D50CF4C0027B526 /* ViewController.swift in Sources */,
 				F9AFC5241D52216C0026937E /* AnimalCell.swift in Sources */,
 				F99089A51D50CF4C0027B526 /* AppDelegate.swift in Sources */,

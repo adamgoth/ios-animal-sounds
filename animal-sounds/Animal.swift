@@ -7,17 +7,24 @@
 //
 
 import Foundation
+import UIKit
 
 class Animal {
     
     private var _name: String
+    private var _color: UIColor
     
     var name: String {
         return _name
     }
     
-    init(name: String) {
+    var color: UIColor {
+        return _color
+    }
+    
+    init(name: String, color: UIColor) {
         self._name = name
+        self._color = color
     }
     
 }

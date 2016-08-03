@@ -12,6 +12,7 @@ class AnimalCell: UITableViewCell {
     
     @IBOutlet weak var animalImg: UIImageView!
     @IBOutlet weak var animalName: UILabel!
+    @IBOutlet weak var cellContainer: UIView!
     
     var animal: Animal!
 
@@ -30,6 +31,7 @@ class AnimalCell: UITableViewCell {
         self.animal = animal
         animalName.text = animal.name
         animalImg.image = UIImage(named: "\(animal.name)")
+        cellContainer.backgroundColor = animal.color
     }
     
     @IBAction func soundBtnPressed() {
