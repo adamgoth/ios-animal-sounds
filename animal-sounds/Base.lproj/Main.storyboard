@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSans-Regular.ttf">
+            <string>NotoSans</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="animal_sounds" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +22,100 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="106" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RNL-ek-D3A">
+                                <rect key="frame" x="0.0" y="80" width="600" height="520"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="106" id="6YY-YB-p3m">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="106"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6YY-YB-p3m" id="pS2-nn-GFI">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="105.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WCX-Cs-FDE">
+                                                    <rect key="frame" x="8" y="7" width="584" height="90"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Lion" translatesAutoresizingMaskIntoConstraints="NO" id="F51-5N-qX9">
+                                                            <rect key="frame" x="8" y="8" width="74" height="74"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="74" id="ioM-Sa-QgZ"/>
+                                                                <constraint firstAttribute="width" constant="74" id="y1O-2o-9qG"/>
+                                                            </constraints>
+                                                            <variation key="default">
+                                                                <mask key="constraints">
+                                                                    <exclude reference="ioM-Sa-QgZ"/>
+                                                                </mask>
+                                                            </variation>
+                                                        </imageView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speaker" translatesAutoresizingMaskIntoConstraints="NO" id="H4v-bc-Gg0">
+                                                            <rect key="frame" x="536" y="25" width="40" height="40"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="40" id="vcF-tv-YMX"/>
+                                                                <constraint firstAttribute="height" constant="40" id="wc6-Nv-VPy"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FgI-ac-Ilo">
+                                                            <rect key="frame" x="132" y="17" width="321" height="55"/>
+                                                            <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="35"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="1" green="0.52581686549999995" blue="0.072584858759999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstItem="FgI-ac-Ilo" firstAttribute="centerX" secondItem="WCX-Cs-FDE" secondAttribute="centerX" id="AvS-hj-rV8"/>
+                                                        <constraint firstItem="H4v-bc-Gg0" firstAttribute="centerY" secondItem="WCX-Cs-FDE" secondAttribute="centerY" id="Dsx-cD-ov3"/>
+                                                        <constraint firstItem="FgI-ac-Ilo" firstAttribute="centerY" secondItem="WCX-Cs-FDE" secondAttribute="centerY" id="PLo-ul-mcX"/>
+                                                        <constraint firstItem="F51-5N-qX9" firstAttribute="leading" secondItem="WCX-Cs-FDE" secondAttribute="leading" constant="8" id="WnP-tu-KTa"/>
+                                                        <constraint firstAttribute="bottom" secondItem="F51-5N-qX9" secondAttribute="bottom" constant="8" id="iIj-TL-QdE"/>
+                                                        <constraint firstAttribute="trailing" secondItem="H4v-bc-Gg0" secondAttribute="trailing" constant="8" id="o9L-gf-0ur"/>
+                                                        <constraint firstItem="F51-5N-qX9" firstAttribute="top" secondItem="WCX-Cs-FDE" secondAttribute="top" constant="8" id="xno-au-NyT"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="WCX-Cs-FDE" firstAttribute="bottom" secondItem="pS2-nn-GFI" secondAttribute="bottomMargin" id="PHU-Bv-MPD"/>
+                                                <constraint firstItem="WCX-Cs-FDE" firstAttribute="leading" secondItem="pS2-nn-GFI" secondAttribute="leadingMargin" id="YnA-Pt-nOX"/>
+                                                <constraint firstItem="WCX-Cs-FDE" firstAttribute="trailing" secondItem="pS2-nn-GFI" secondAttribute="trailingMargin" id="iSc-iV-ogC"/>
+                                                <constraint firstItem="WCX-Cs-FDE" firstAttribute="top" secondItem="pS2-nn-GFI" secondAttribute="topMargin" id="pbw-3Z-thD"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xMb-z4-53k">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
+                                <color key="backgroundColor" red="0.0" green="0.74901960784313726" blue="0.55686274509803924" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="d8b-Z8-pU8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RNL-ek-D3A" secondAttribute="trailing" id="8zY-vT-xVb"/>
+                            <constraint firstItem="RNL-ek-D3A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9hx-7m-aEK"/>
+                            <constraint firstItem="xMb-z4-53k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Tv4-sf-3Mj"/>
+                            <constraint firstAttribute="trailing" secondItem="xMb-z4-53k" secondAttribute="trailing" id="Ypr-kT-Zj1"/>
+                            <constraint firstItem="xMb-z4-53k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aAx-hA-lj5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RNL-ek-D3A" secondAttribute="bottom" id="gzC-4v-FIb"/>
+                            <constraint firstItem="RNL-ek-D3A" firstAttribute="top" secondItem="xMb-z4-53k" secondAttribute="bottom" id="hRI-Nq-lC0"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="RNL-ek-D3A" id="9It-cq-4na"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="337"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Lion" width="128" height="128"/>
+        <image name="speaker" width="128" height="128"/>
+    </resources>
 </document>
