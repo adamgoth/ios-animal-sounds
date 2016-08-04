@@ -11,6 +11,7 @@
 		F907FC3A1D5147D6009D4603 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F907FC361D5147D6009D4603 /* NotoSans-BoldItalic.ttf */; };
 		F907FC3B1D5147D6009D4603 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F907FC371D5147D6009D4603 /* NotoSans-Italic.ttf */; };
 		F907FC3C1D5147D6009D4603 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F907FC381D5147D6009D4603 /* NotoSans-Regular.ttf */; };
+		F9501AF21D52E1BB00576EA2 /* Sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9501AF11D52E1BB00576EA2 /* Sheep.mp3 */; };
 		F99089A51D50CF4C0027B526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99089A41D50CF4C0027B526 /* AppDelegate.swift */; };
 		F99089A71D50CF4C0027B526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99089A61D50CF4C0027B526 /* ViewController.swift */; };
 		F99089AA1D50CF4C0027B526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99089A81D50CF4C0027B526 /* Main.storyboard */; };
@@ -26,6 +27,12 @@
 		F9AFC5321D52B2D70026937E /* Snake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC52F1D52B2D70026937E /* Snake.mp3 */; };
 		F9AFC5341D52B2DD0026937E /* Elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC5331D52B2DD0026937E /* Elephant.mp3 */; };
 		F9AFC5361D52CE090026937E /* AnimalContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AFC5351D52CE090026937E /* AnimalContainerView.swift */; };
+		F9AFC5381D52E05E0026937E /* Cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC5371D52E05E0026937E /* Cat.mp3 */; };
+		F9AFC53A1D52E0660026937E /* Dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC5391D52E0660026937E /* Dog.mp3 */; };
+		F9AFC53C1D52E0740026937E /* Rooster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC53B1D52E0740026937E /* Rooster.mp3 */; };
+		F9AFC53E1D52E0840026937E /* Moose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC53D1D52E0840026937E /* Moose.mp3 */; };
+		F9AFC5411D52E0D00026937E /* Cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC53F1D52E0D00026937E /* Cow.mp3 */; };
+		F9AFC5421D52E0D00026937E /* Owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC5401D52E0D00026937E /* Owl.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +40,7 @@
 		F907FC361D5147D6009D4603 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		F907FC371D5147D6009D4603 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
 		F907FC381D5147D6009D4603 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		F9501AF11D52E1BB00576EA2 /* Sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sheep.mp3; sourceTree = "<group>"; };
 		F99089A11D50CF4C0027B526 /* animal-sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animal-sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99089A41D50CF4C0027B526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F99089A61D50CF4C0027B526 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +58,12 @@
 		F9AFC52F1D52B2D70026937E /* Snake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Snake.mp3; sourceTree = "<group>"; };
 		F9AFC5331D52B2DD0026937E /* Elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Elephant.mp3; sourceTree = "<group>"; };
 		F9AFC5351D52CE090026937E /* AnimalContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalContainerView.swift; sourceTree = "<group>"; };
+		F9AFC5371D52E05E0026937E /* Cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cat.mp3; sourceTree = "<group>"; };
+		F9AFC5391D52E0660026937E /* Dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dog.mp3; sourceTree = "<group>"; };
+		F9AFC53B1D52E0740026937E /* Rooster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rooster.mp3; sourceTree = "<group>"; };
+		F9AFC53D1D52E0840026937E /* Moose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Moose.mp3; sourceTree = "<group>"; };
+		F9AFC53F1D52E0D00026937E /* Cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cow.mp3; sourceTree = "<group>"; };
+		F9AFC5401D52E0D00026937E /* Owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Owl.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +85,16 @@
 				F907FC371D5147D6009D4603 /* NotoSans-Italic.ttf */,
 				F907FC381D5147D6009D4603 /* NotoSans-Regular.ttf */,
 				F9AFC5291D52A9280026937E /* Lion.mp3 */,
+				F9AFC5371D52E05E0026937E /* Cat.mp3 */,
 				F9AFC5331D52B2DD0026937E /* Elephant.mp3 */,
+				F9AFC5391D52E0660026937E /* Dog.mp3 */,
 				F9AFC52D1D52B2D70026937E /* Monkey.mp3 */,
+				F9AFC53D1D52E0840026937E /* Moose.mp3 */,
+				F9AFC53F1D52E0D00026937E /* Cow.mp3 */,
+				F9501AF11D52E1BB00576EA2 /* Sheep.mp3 */,
+				F9AFC5401D52E0D00026937E /* Owl.mp3 */,
 				F9AFC52E1D52B2D70026937E /* Pig.mp3 */,
+				F9AFC53B1D52E0740026937E /* Rooster.mp3 */,
 				F9AFC52F1D52B2D70026937E /* Snake.mp3 */,
 				F9AFC52B1D52B2CE0026937E /* Whale.mp3 */,
 			);
@@ -205,19 +226,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AFC5421D52E0D00026937E /* Owl.mp3 in Resources */,
 				F9AFC52C1D52B2CE0026937E /* Whale.mp3 in Resources */,
 				F9AFC52A1D52A9280026937E /* Lion.mp3 in Resources */,
 				F907FC391D5147D6009D4603 /* NotoSans-Bold.ttf in Resources */,
 				F9AFC5341D52B2DD0026937E /* Elephant.mp3 in Resources */,
 				F99089AF1D50CF4C0027B526 /* LaunchScreen.storyboard in Resources */,
 				F9AFC5311D52B2D70026937E /* Pig.mp3 in Resources */,
+				F9AFC5411D52E0D00026937E /* Cow.mp3 in Resources */,
 				F9AFC5321D52B2D70026937E /* Snake.mp3 in Resources */,
+				F9AFC53C1D52E0740026937E /* Rooster.mp3 in Resources */,
 				F907FC3A1D5147D6009D4603 /* NotoSans-BoldItalic.ttf in Resources */,
 				F9AFC5301D52B2D70026937E /* Monkey.mp3 in Resources */,
+				F9501AF21D52E1BB00576EA2 /* Sheep.mp3 in Resources */,
+				F9AFC53A1D52E0660026937E /* Dog.mp3 in Resources */,
+				F9AFC53E1D52E0840026937E /* Moose.mp3 in Resources */,
 				F907FC3B1D5147D6009D4603 /* NotoSans-Italic.ttf in Resources */,
 				F99089AC1D50CF4C0027B526 /* Assets.xcassets in Resources */,
 				F99089AA1D50CF4C0027B526 /* Main.storyboard in Resources */,
 				F907FC3C1D5147D6009D4603 /* NotoSans-Regular.ttf in Resources */,
+				F9AFC5381D52E05E0026937E /* Cat.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
