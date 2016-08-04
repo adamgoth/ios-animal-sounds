@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class AnimalCell: UITableViewCell {
     
@@ -15,6 +16,7 @@ class AnimalCell: UITableViewCell {
     @IBOutlet weak var cellContainer: UIView!
     
     var animal: Animal!
+    var sfx: AVAudioPlayer!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -35,7 +37,14 @@ class AnimalCell: UITableViewCell {
     }
     
     @IBAction func soundBtnPressed() {
-        
+        do {
+            try sfx = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("\(animal.name)", ofType: "mp3")!))
+            
+            sfx.prepareToPlay()
+            sfx.play()
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
     }
 
 }

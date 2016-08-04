@@ -19,6 +19,12 @@
 		F9AFC5221D5220D40026937E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AFC5211D5220D40026937E /* Animal.swift */; };
 		F9AFC5241D52216C0026937E /* AnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AFC5231D52216C0026937E /* AnimalCell.swift */; };
 		F9AFC5281D5226B60026937E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AFC5271D5226B60026937E /* Constants.swift */; };
+		F9AFC52A1D52A9280026937E /* Lion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC5291D52A9280026937E /* Lion.mp3 */; };
+		F9AFC52C1D52B2CE0026937E /* Whale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC52B1D52B2CE0026937E /* Whale.mp3 */; };
+		F9AFC5301D52B2D70026937E /* Monkey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC52D1D52B2D70026937E /* Monkey.mp3 */; };
+		F9AFC5311D52B2D70026937E /* Pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC52E1D52B2D70026937E /* Pig.mp3 */; };
+		F9AFC5321D52B2D70026937E /* Snake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC52F1D52B2D70026937E /* Snake.mp3 */; };
+		F9AFC5341D52B2DD0026937E /* Elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9AFC5331D52B2DD0026937E /* Elephant.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,12 @@
 		F9AFC5211D5220D40026937E /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		F9AFC5231D52216C0026937E /* AnimalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
 		F9AFC5271D5226B60026937E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F9AFC5291D52A9280026937E /* Lion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lion.mp3; sourceTree = "<group>"; };
+		F9AFC52B1D52B2CE0026937E /* Whale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Whale.mp3; sourceTree = "<group>"; };
+		F9AFC52D1D52B2D70026937E /* Monkey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Monkey.mp3; sourceTree = "<group>"; };
+		F9AFC52E1D52B2D70026937E /* Pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pig.mp3; sourceTree = "<group>"; };
+		F9AFC52F1D52B2D70026937E /* Snake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Snake.mp3; sourceTree = "<group>"; };
+		F9AFC5331D52B2DD0026937E /* Elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Elephant.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,12 @@
 				F907FC361D5147D6009D4603 /* NotoSans-BoldItalic.ttf */,
 				F907FC371D5147D6009D4603 /* NotoSans-Italic.ttf */,
 				F907FC381D5147D6009D4603 /* NotoSans-Regular.ttf */,
+				F9AFC5291D52A9280026937E /* Lion.mp3 */,
+				F9AFC5331D52B2DD0026937E /* Elephant.mp3 */,
+				F9AFC52D1D52B2D70026937E /* Monkey.mp3 */,
+				F9AFC52E1D52B2D70026937E /* Pig.mp3 */,
+				F9AFC52F1D52B2D70026937E /* Snake.mp3 */,
+				F9AFC52B1D52B2CE0026937E /* Whale.mp3 */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -184,9 +202,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AFC52C1D52B2CE0026937E /* Whale.mp3 in Resources */,
+				F9AFC52A1D52A9280026937E /* Lion.mp3 in Resources */,
 				F907FC391D5147D6009D4603 /* NotoSans-Bold.ttf in Resources */,
+				F9AFC5341D52B2DD0026937E /* Elephant.mp3 in Resources */,
 				F99089AF1D50CF4C0027B526 /* LaunchScreen.storyboard in Resources */,
+				F9AFC5311D52B2D70026937E /* Pig.mp3 in Resources */,
+				F9AFC5321D52B2D70026937E /* Snake.mp3 in Resources */,
 				F907FC3A1D5147D6009D4603 /* NotoSans-BoldItalic.ttf in Resources */,
+				F9AFC5301D52B2D70026937E /* Monkey.mp3 in Resources */,
 				F907FC3B1D5147D6009D4603 /* NotoSans-Italic.ttf in Resources */,
 				F99089AC1D50CF4C0027B526 /* Assets.xcassets in Resources */,
 				F99089AA1D50CF4C0027B526 /* Main.storyboard in Resources */,
