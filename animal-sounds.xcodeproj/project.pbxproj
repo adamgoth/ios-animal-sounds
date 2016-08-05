@@ -199,7 +199,7 @@
 				TargetAttributes = {
 					F99089A01D50CF4C0027B526 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = M685F39Y73;
+						DevelopmentTeam = 98Q85W7SW2;
 					};
 				};
 			};
@@ -376,9 +376,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "animal-sounds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adamgoth.animal-sounds";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamgoth.animalsounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -387,9 +388,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "animal-sounds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adamgoth.animal-sounds";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamgoth.animalsounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
