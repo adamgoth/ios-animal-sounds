@@ -80,8 +80,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WCX-Cs-FDE" customClass="AnimalContainerView" customModule="animal_sounds" customModuleProvider="target">
                                                     <rect key="frame" x="8" y="7" width="584" height="98"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Lion" translatesAutoresizingMaskIntoConstraints="NO" id="F51-5N-qX9">
-                                                            <rect key="frame" x="8" y="11" width="74" height="74"/>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lion" translatesAutoresizingMaskIntoConstraints="NO" id="F51-5N-qX9">
+                                                            <rect key="frame" x="8" y="8" width="74" height="82"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="74" id="ioM-Sa-QgZ"/>
                                                                 <constraint firstAttribute="width" constant="74" id="y1O-2o-9qG"/>
@@ -92,8 +92,8 @@
                                                                 </mask>
                                                             </variation>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FgI-ac-Ilo">
-                                                            <rect key="frame" x="132" y="20" width="321" height="55"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FgI-ac-Ilo">
+                                                            <rect key="frame" x="259" y="26" width="66.5" height="45"/>
                                                             <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="33"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
