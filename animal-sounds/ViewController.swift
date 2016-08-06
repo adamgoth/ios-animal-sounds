@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var infoBtn: UIButton!
     
     var animals = [Animal]()
 
@@ -61,6 +62,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         } else {
             return AnimalCell()
         }
+    }
+    
+    @IBAction func infoBtnPressed() {
+        performSegueWithIdentifier("showInfo", sender: nil)
     }
 
 

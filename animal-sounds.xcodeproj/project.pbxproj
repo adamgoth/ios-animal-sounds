@@ -12,6 +12,7 @@
 		F907FC3B1D5147D6009D4603 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F907FC371D5147D6009D4603 /* NotoSans-Italic.ttf */; };
 		F907FC3C1D5147D6009D4603 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F907FC381D5147D6009D4603 /* NotoSans-Regular.ttf */; };
 		F9501AF21D52E1BB00576EA2 /* Sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9501AF11D52E1BB00576EA2 /* Sheep.mp3 */; };
+		F96DDCBC1D552AAC0028700C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96DDCBB1D552AAC0028700C /* InfoViewController.swift */; };
 		F99089A51D50CF4C0027B526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99089A41D50CF4C0027B526 /* AppDelegate.swift */; };
 		F99089A71D50CF4C0027B526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99089A61D50CF4C0027B526 /* ViewController.swift */; };
 		F99089AA1D50CF4C0027B526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99089A81D50CF4C0027B526 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		F907FC371D5147D6009D4603 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
 		F907FC381D5147D6009D4603 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		F9501AF11D52E1BB00576EA2 /* Sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sheep.mp3; sourceTree = "<group>"; };
+		F96DDCBB1D552AAC0028700C /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		F99089A11D50CF4C0027B526 /* animal-sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animal-sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99089A41D50CF4C0027B526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F99089A61D50CF4C0027B526 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				F99089A61D50CF4C0027B526 /* ViewController.swift */,
+				F96DDCBB1D552AAC0028700C /* InfoViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				F9AFC5281D5226B60026937E /* Constants.swift in Sources */,
 				F99089A71D50CF4C0027B526 /* ViewController.swift in Sources */,
 				F9AFC5241D52216C0026937E /* AnimalCell.swift in Sources */,
+				F96DDCBC1D552AAC0028700C /* InfoViewController.swift in Sources */,
 				F99089A51D50CF4C0027B526 /* AppDelegate.swift in Sources */,
 				F9AFC5361D52CE090026937E /* AnimalContainerView.swift in Sources */,
 				F9AFC5221D5220D40026937E /* Animal.swift in Sources */,
@@ -376,7 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Goth (84PWF7P754)";
 				INFOPLIST_FILE = "animal-sounds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamgoth.animalsounds;
@@ -388,7 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adam Goth (98Q85W7SW2)";
 				INFOPLIST_FILE = "animal-sounds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamgoth.animalsounds;
